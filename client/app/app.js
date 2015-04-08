@@ -25,7 +25,6 @@ app.controller('MainCtrl', function($scope, $http){
   };
 
   $scope.submitForm = function() {
-    console.log('submit form');
     $http.post('/', { brewery: $scope.searchTerm })
       .success(function(data, status, headers, config){
         $scope.data = data;
