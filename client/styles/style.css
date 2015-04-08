@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+form {
+  padding: 10px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+table {
+  padding: 10px;
+}
+
+img {
+  float: left;
+}
