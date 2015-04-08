@@ -1,0 +1,17 @@
+<h1>All Brews</h1>
+<form>
+  <div>
+    <p>Search for a brewery: </p>
+    <input id="search" type="text" name="search" ng-model="searchTerm">
+    <button ng-click="submitForm()">Beer me!</button>
+  </div>
+</form>
+
+<table id="beers">
+ <tr>
+   <td>Beer name</td>
+   <td>Availability</td>
+ </tr>
+</table>
+
+{{data}};

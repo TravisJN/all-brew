@@ -1,0 +1,16 @@
+<h1>All Brews</h1>
+<form>
+  <div>
+    <p>Search for a brewery: </p>
+    <input id="search" type="text" name="search" ng-model="searchTerm">
+    <button ng-click="submitForm()">Beer me!</button>
+  </div>
+</form>
+
+<img src="{{beerObj.image}}">
+<table id="beers">
+ <tr ng-repeat="beer in beerObj.beers">
+   <td>{{beer.name}}</td>
+   <td>{{beer.availability}}</td>
+ </tr>
+</table>
