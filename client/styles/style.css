@@ -15,3 +15,6 @@ table {
   padding: 10px;
 }
 
+tbody tr:nth-child(even) {
+  background: WhiteSmoke;
+}
